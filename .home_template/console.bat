@@ -44,7 +44,7 @@ set "PROMPT_TAG=DE Tools"
 set "WINPORTABLE_USER=%USER_FROM_HOME%"
 set "WINPORTABLE_HOST=DE_TOOLS"
 ::start "DE" "%MSYS%\usr\bin\mintty.exe" -t "MSYS2" /usr/bin/bash -li
-start "%PROMPT_TAG%" "%MSYS%\usr\bin\mintty.exe" /usr/bin/bash -lc "echo User:%USER%; echo Host:%WINPORTABLE_HOST%; exec bash -li"
+start "%PROMPT_TAG%" "%MSYS%\usr\bin\mintty.exe" /usr/bin/bash -lc "echo User:$USER; echo Host:$WINPORTABLE_HOST; echo Home:$HOME; exec bash -li"
 
 ::pause
 exit /b
