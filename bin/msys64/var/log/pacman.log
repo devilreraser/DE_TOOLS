@@ -100,3 +100,54 @@
 [2025-08-28T03:22:21+0000] [ALPM] installed base (2022.06-1)
 [2025-08-28T03:22:21+0000] [ALPM] transaction completed
 [2025-08-28T03:22:21+0000] [ALPM] running 'texinfo-install.hook'...
+[2025-09-01T02:08:34+0300] [PACMAN] Running 'pacman -Syu'
+[2025-09-01T02:08:34+0300] [PACMAN] synchronizing package lists
+[2025-09-01T02:08:37+0300] [PACMAN] starting core system upgrade
+[2025-09-01T02:08:37+0300] [PACMAN] starting full system upgrade
+[2025-09-01T02:08:51+0300] [ALPM] transaction started
+[2025-09-01T02:08:51+0300] [ALPM] upgraded libngtcp2 (1.14.0-1 -> 1.15.0-1)
+[2025-09-01T02:08:51+0300] [ALPM] upgraded libpcre2_8 (10.45-1 -> 10.46-1)
+[2025-09-01T02:08:51+0300] [ALPM] upgraded libcurl (8.15.0-1 -> 8.15.0-2)
+[2025-09-01T02:08:53+0300] [ALPM] upgraded curl (8.15.0-1 -> 8.15.0-2)
+[2025-09-01T02:08:53+0300] [ALPM] transaction completed
+[2025-09-01T02:09:12+0300] [PACMAN] Running 'pacman -Su'
+[2025-09-01T02:09:12+0300] [PACMAN] starting core system upgrade
+[2025-09-01T02:09:12+0300] [PACMAN] starting full system upgrade
+[2025-09-01T02:09:42+0300] [PACMAN] Running 'pacman -S --needed git bash-completion'
+[2025-09-01T02:09:56+0300] [ALPM] transaction started
+[2025-09-01T02:09:57+0300] [ALPM] installed heimdal (7.8.0-5)
+[2025-09-01T02:09:57+0300] [ALPM] installed libcbor (0.12.0-1)
+[2025-09-01T02:09:57+0300] [ALPM] installed libfido2 (1.16.0-1)
+[2025-09-01T02:09:57+0300] [ALPM] installed openssh (10.0p1-2)
+[2025-09-01T02:09:57+0300] [ALPM] installed perl-Error (0.17030-1)
+[2025-09-01T02:09:57+0300] [ALPM] installed perl-Authen-SASL (2.1900-1)
+[2025-09-01T02:09:57+0300] [ALPM] installed perl-Encode-Locale (1.05-2)
+[2025-09-01T02:09:57+0300] [ALPM] installed perl-HTTP-Date (6.06-1)
+[2025-09-01T02:09:57+0300] [ALPM] installed perl-File-Listing (6.16-1)
+[2025-09-01T02:09:57+0300] [ALPM] installed perl-HTML-Tagset (3.24-1)
+[2025-09-01T02:09:57+0300] [ALPM] installed perl-Clone (0.47-2)
+[2025-09-01T02:09:58+0300] [ALPM] installed perl-IO-HTML (1.004-2)
+[2025-09-01T02:09:58+0300] [ALPM] installed perl-LWP-MediaTypes (6.04-2)
+[2025-09-01T02:09:58+0300] [ALPM] installed perl-URI (5.32-1)
+[2025-09-01T02:09:58+0300] [ALPM] installed perl-HTTP-Message (7.00-1)
+[2025-09-01T02:09:58+0300] [ALPM] installed perl-HTML-Parser (3.83-2)
+[2025-09-01T02:09:58+0300] [ALPM] installed perl-HTTP-Cookies (6.11-1)
+[2025-09-01T02:09:58+0300] [ALPM] installed perl-HTTP-Daemon (6.16-1)
+[2025-09-01T02:09:58+0300] [ALPM] installed perl-http-cookiejar (0.014-1)
+[2025-09-01T02:09:58+0300] [ALPM] installed perl-HTTP-Negotiate (6.01-3)
+[2025-09-01T02:09:58+0300] [ALPM] installed perl-Net-HTTP (6.23-1)
+[2025-09-01T02:09:58+0300] [ALPM] installed perl-WWW-RobotRules (6.02-3)
+[2025-09-01T02:09:58+0300] [ALPM] installed perl-Try-Tiny (0.32-1)
+[2025-09-01T02:09:58+0300] [ALPM] installed perl-libwww (6.79-1)
+[2025-09-01T02:09:58+0300] [ALPM] installed perl-TimeDate (2.33-2)
+[2025-09-01T02:09:58+0300] [ALPM] installed perl-MailTools (2.22-1)
+[2025-09-01T02:09:58+0300] [ALPM] installed perl-IO-Stringy (2.113-2)
+[2025-09-01T02:09:58+0300] [ALPM] installed perl-Convert-BinHex (1.125-2)
+[2025-09-01T02:09:59+0300] [ALPM-SCRIPTLET] module test... pass.
+[2025-09-01T02:09:59+0300] [ALPM] installed perl-MIME-tools (5.515-1)
+[2025-09-01T02:09:59+0300] [ALPM] installed perl-Net-SSLeay (1.94-3)
+[2025-09-01T02:09:59+0300] [ALPM] installed perl-IO-Socket-SSL (2.094-1)
+[2025-09-01T02:09:59+0300] [ALPM] installed perl-Net-SMTP-SSL (1.04-2)
+[2025-09-01T02:09:59+0300] [ALPM] installed perl-TermReadKey (2.38-7)
+[2025-09-01T02:10:00+0300] [ALPM] installed git (2.51.0-1)
+[2025-09-01T02:10:00+0300] [ALPM] transaction completed

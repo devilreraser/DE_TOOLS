@@ -39,7 +39,18 @@ if not exist "%HOME%\.bash_profile" (
 ::start "" "%MSYS%\usr\bin\bash.exe" --login -i
 
 rem after HOME/USER/MSYS are set...
-set "MSYS2_PATH_TYPE=inherit"
+
+rem Prefer MSYS paths over Windows ones (or use STRICT to hide Windows PATH)
+set "MSYS2_PATH_TYPE=prefer"
+:: or inherit from windows
+::set "MSYS2_PATH_TYPE=inherit"
+
+rem Put your portable MSYS first on PATH (and you can omit %PATH% if you want fully isolated)
+set "PATH=%MSYS%\usr\bin;%MSYS%\bin;"
+:: or add also windows path
+::set "PATH=%MSYS%\usr\bin;%MSYS%\bin;%PATH%"
+
+
 set "PROMPT_TAG=DE Tools"
 set "WINPORTABLE_USER=%USER_FROM_HOME%"
 set "WINPORTABLE_HOST=DE_TOOLS"

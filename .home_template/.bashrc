@@ -30,7 +30,7 @@ export HOSTNAME="$portable_host"
 # Git prompt helpers (optional)
 # -------------------------------
 # Try common locations for git-prompt.sh
-for gp in /mingw64/share/git/completion/git-prompt.sh /usr/share/git/completion/git-prompt.sh; do
+for gp in /usr/share/git/completion/git-prompt.sh /mingw64/share/git/completion/git-prompt.sh; do
   [ -r "$gp" ] && . "$gp" && break
 done
 
